@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.formCenter {
+  margin: auto;
+  /*
+  position: absolute;
+  top: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  */
+}
+
+.formCenter.formChange {
+  min-width: 300px;
+  max-width: 500px;
+  max-height: 320px;
+  padding: 50px;
+  border: solid 1px #ccc;
+}
